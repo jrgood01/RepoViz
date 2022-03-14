@@ -1,0 +1,23 @@
+{
+  "name": "repoviz",
+  "version": "1.0.0",
+  "description": "A repository visualizer for developers",
+  "main": "index.js",
+  "author" : "Jake Haygood",
+  "license": "Apache 2.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrgood01/RepoViz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jrgood01/RepoViz/issues"
+  },
+  "homepage": "https://github.com/jrgood01/RepoViz#readme",
+  "devDependencies": {
+    "electron": "^17.1.2"
+  }
+}
